@@ -22,15 +22,48 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
+    heimuer: {
+        api: 'https://json.heimuer.xyz',
+        name: '黑木耳',
+        detail: 'https://heimuer.tv'
+    },
+    ffzy: {
+        api: 'http://ffzy5.tv',
+        name: '非凡影视',
+        detail: 'http://ffzy5.tv'
     },
     api_1: {
         api: 'https://api.1080zyku.com/inc/api_mac10.php',
         name: 'TV-1080资源',
-        adult: true
+        //adult: true
+    },
+    api_2: {
+        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
+        name: 'TV-电影天堂资源',
+    },
+    api_3: {
+        api: 'https://cj.rycjapi.com/api.php/provide/vod',
+        name: 'TV-如意资源',
+    },
+    api_4: {
+        api: 'https://suoniapi.com/api.php/provide/vod',
+        name: 'TV-索尼资源',
+    },
+    api_5: {
+        api: 'https://caiji.dbzy.tv/api.php/provide/vod',
+        name: 'TV-豆瓣资源',
+    },
+    api_6: {
+        api: 'https://mozhuazy.com/api.php/provide/vod',
+        name: 'TV-魔爪资源',
+    },
+    api_7: {
+        api: 'https://155api.com/api.php/provide/vod',
+        name: 'AV-155资源',
+    },
+    api_8: {
+        api: 'https://cj.lziapi.com/api.php/provide/vod/',
+        name: '影视工厂',
     }
     //ARCHIVE https://telegra.ph/APIs-08-12
 };
